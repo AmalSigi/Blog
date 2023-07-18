@@ -35,7 +35,7 @@
     <header>
       <nav class="bg-black w-full h-24 flex justify-between p-3">
         <a href="index.html">
-          <h1 class="ml-56 text-white font-bold text-3xl uppercase">blog</h1>
+          <h1 class="text-white font-bold text-3xl uppercase">blog</h1>
         </a>
         <div>
           <a href=""><i class="fa-solid fa-house text-gray-500"></i></a>
@@ -138,10 +138,8 @@
         </nav>
       </section>
     </header>
-    <main class="mb-10">
-      <div
-        class="w-[70%] h-96 bg-black mx-auto mt-10 rounded-md overflow-hidden flex"
-      >
+    <main class="container mx-auto mb-10">
+      <div class="h-96 bg-black mx-auto mt-10 rounded-md overflow-hidden flex">
         <div class="w-[60%] h-full bg-gray-500">
           <a href="blog_content.html">
             <img
@@ -164,9 +162,9 @@
       </div>
       <section>
         <div>
-          <h2 class="text-4xl font-medium mt-20 ml-[8em]">Latest</h2>
+          <h2 class="text-4xl font-medium mt-20">Latest</h2>
         </div>
-        <div class="grid grid-cols-12 w-[70%] mx-auto mt-5 gap-4">
+        <div class="grid grid-cols-12 mx-auto mt-5 gap-4">
           <div class="h-[20rem] col-span-4">
             <div class="h-[75%] w-full bg-red-200">
               <a href="blog_content.html">
@@ -229,7 +227,8 @@
           </div>
         </div>
       </section>
-      <section class="border-2 border-x-0 w-[70%] h-36 mx-auto mt-24 p-5">
+      <!-- add -->
+      <section class="border-2 border-x-0 h-36 mx-auto mt-24 p-5">
         <div class="mx-auto w-[70%] h-full">
           <a href="blog_content.html">
             <img
@@ -240,8 +239,8 @@
           </a>
         </div>
       </section>
-      <h2 class="ml-[12em] text-2xl font-semibold mt-5">Technology</h2>
-      <section class="w-[70%] h-[30rem] mx-auto mt-5 flex gap-3">
+      <h2 class="text-4xl font-medium mt-20">Technology</h2>
+      <section class="h-[30rem] mx-auto mt-5 flex gap-3">
         <div class="bg-blue-200 w-[70%] h-full">
           <a href="blog_content.html">
             <img
@@ -302,7 +301,7 @@
           </div>
         </div>
       </section>
-      <section class="border-2 border-x-0 w-[70%] h-36 mx-auto mt-24 p-5">
+      <section class="border-2 border-x-0 h-36 mx-auto mt-24 p-5">
         <div class="mx-auto w-[70%] h-full">
           <a href="blog_content.html">
             <img
@@ -313,9 +312,9 @@
           </a>
         </div>
       </section>
-      <h2 class="ml-[12em] text-2xl font-semibold mt-5">Health & Fitness</h2>
+      <h2 class="text-4xl font-medium mt-20">Health & Fitness</h2>
 
-      <section class="w-[70%] h-[30rem] mx-auto mt-5 flex gap-3">
+      <section class="h-[30rem] mx-auto mt-5 flex gap-3">
         <div class="bg-blue-200 w-[70%] h-full">
           <img
             class="w-full h-full object-cover hover:shadow-xl hover:shadow-gray-500"
@@ -369,6 +368,42 @@
         </div>
       </section>
     </main>
-    <footer class="w-full h-[10rem] bg-black"></footer>
+    <footer class="w-full flex justify-between mx-auto bg-black p-14">
+      <div class="text-gray-500 text-xl">
+        <a
+          class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          href=""
+          >Contact</a
+        >
+
+        <a
+          class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          href=""
+          >About</a
+        >
+
+        <a
+          class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          href=""
+        >
+          Privacy
+        </a>
+
+        <a
+          class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          href=""
+          >Policy</a
+        >
+      </div>
+      <div class="text-gray-500 text-xl">
+        <a class="ml-10 cursor-pointer"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+
+        <a class="ml-5 cursor-pointer"><i class="fa-brands fa-twitter"></i></a>
+
+        <a class="ml-5 cursor-pointer"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
