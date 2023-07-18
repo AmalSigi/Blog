@@ -31,8 +31,62 @@
       </nav>
 
       <section class="bg-slate-300 w-full h-24 flex justify-around">
-        <div class="mt-8 text-gray-500 text-xl">
-          <a
+        <nav class="mt-8 text-gray-500 text-xl">
+          <!--  -->
+          <div
+            class="dropdown mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          >
+            <a href="blog_category.html">Travel</a>
+            <div class="dropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+
+          <div
+            class="dropdown mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          >
+            <a href="blog_category.html">Buying Guides</a>
+            <div class="dropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+          <div
+            class="dropdown mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          >
+            <a href="blog_category.html">Tech</a>
+            <div class="dropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+          <div
+            class="dropdown mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          >
+            <a href="blog_category.html">cars</a>
+            <div class="dropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+          <div
+            class="dropdown mx-3 border-2 border-transparent hover:border-b-white pb-3"
+          >
+            <a href="blog_category.html">Gaming</a>
+            <div class="dropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </div>
+
+          <!--  -->
+          <!-- <a
             class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
             href="blog_category.html"
             >Travel</a
@@ -57,7 +111,7 @@
             class="mx-3 border-2 border-transparent hover:border-b-white pb-3"
             href="blog_category.html"
             >Gaming</a
-          >
+          > -->
           <button class="ml-10"><i class="fa-brands fa-facebook"></i></button>
           <button class="ml-5"><i class="fa-brands fa-twitter"></i></button>
           <button class="ml-5"><i class="fa-brands fa-youtube"></i></button>
@@ -65,7 +119,7 @@
           <button class="ml-5">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-        </div>
+        </nav>
       </section>
     </header>
 
@@ -234,26 +288,28 @@
             </div>
           </div>
 
-          <div class="p-5">
+          <div class="container mx-auto">
             <h4 class="text-2xl">Add Comments</h4>
             <textarea
-              class="border-2 mt-5 p-5"
+              class="border-2 mt-5 p-5 w-full"
               name=""
               placeholder="comments..."
               id=""
               cols="100"
               rows="6"
+              width=""
+              style="height: 228px; resize: none"
             ></textarea>
-            <div class="flex gap-5">
-              <div class="mt-5">
+            <div class="grid grid-cols-3 w-full mt-5 gap-5">
+              <div class=" ">
                 <label for="name">Name* :</label>
-                <input class="border-2" type="text" />
+                <input id="name" class="border-2" type="text" />
               </div>
-              <div class="mt-5">
+              <div class="">
                 <label for="name">Email* :</label>
                 <input class="border-2" type="text" />
               </div>
-              <div class="mt-5">
+              <div class="">
                 <label for="name">Website :</label>
                 <input class="border-2" type="text" />
               </div>
@@ -263,7 +319,7 @@
 
         <!-- left side -->
 
-        <div class="w-[35%] p-5">
+        <div class="container p-5">
           <div class="w-full h-64 bg-black">
             <h1 class="text-5xl text-center font-bold text-gray-100 p-16">
               AD
@@ -274,7 +330,7 @@
             <div class="flex my-5 border-b-2 p-5">
               <div class="">
                 <img
-                  class="w-full h-full object-cover"
+                  class="h-full object-cover"
                   src="https://images.pexels.com/photos/1230302/pexels-photo-1230302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
@@ -497,11 +553,11 @@
             >Policy</a
           >
 
-          <button class="ml-10"><i class="fa-brands fa-facebook"></i></button>
+          <a class="ml-10" href=""><i class="fa-brands fa-facebook"></i></a>
 
-          <button class="ml-5"><i class="fa-brands fa-twitter"></i></button>
+          <a class="ml-5" href=""><i class="fa-brands fa-twitter"></i></a>
 
-          <button class="ml-5"><i class="fa-brands fa-youtube"></i></button>
+          <a class="ml-5" href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
       </section>
     </footer>
